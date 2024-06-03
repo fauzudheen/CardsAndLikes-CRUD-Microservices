@@ -1,0 +1,35 @@
+venv/
+
+*.log
+*.pot
+*.pyc
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+env/
+ENV/
+
+/node_modules/
+/build/
+/dist/
+/static/
+
+# Ignore local configuration
+instance/
+config.py
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# Docker related files
+.dbdata/
+
+# Ignore any other sensitive or generated files
+*.secret
+*.key
+*.pem
